@@ -1,0 +1,20 @@
+# Amlandeep (Koko) Bhadra
+
+> Head of Engineering at Strobe Labs (perp.city) in New York. About ten years as a systems engineer across quant finance, consumer backends at scale, layer-1 blockchain infrastructure, and now leading the team behind a perpetual futures exchange on Arbitrum. Writes Zig, Rust, Go and Elixir.
+
+## Work
+- Strobe Labs, Head of Engineering (Dec 2024 - present): took PerpCity from first commit to Arbitrum mainnet with a team of three; 60 markets, 19,000 trades, $760K volume in under six months; 13 production services on AWS ECS; inference pipeline with zkML proofs of inference on testnet.
+- Talus Labs, Senior Engineer (2024): execution engine and validator performance for a layer 1 for AI agents.
+- Dapper Labs, Protocol Engineer (2022 - 2023): Flow protocol egress layer, Archive Node, Access Node script execution (80% less staked egress traffic), FLOW Coinbase listing.
+- Earlier: Audible, Harness Wealth, Twitter, Goldman Sachs.
+
+## Open source
+- [eth.zig](https://github.com/StrobeLabs/eth.zig): creator. Zig Ethereum library, faster than alloy.rs on 18 of 26 benchmarks, listed in ethereum.org developer docs.
+- [Zig compiler PR #31381](https://codeberg.org/ziglang/zig/pulls/31381): compiler_rt udivmod large-divisor path, 11.5x faster (merged Mar 2026).
+- [Foundry PR #13588](https://github.com/foundry-rs/foundry/pull/13588): EIP-2935 blockhash history in Anvil.
+- [lean-explain](https://github.com/koko1123/lean-explain): step-by-step English explanations of Lean 4 proofs.
+
+## Links
+- GitHub: https://github.com/koko1123
+- X: https://x.com/baconeggnlean
+- LinkedIn: https://www.linkedin.com/in/amlandeep-bhadra/
