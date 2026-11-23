@@ -1,0 +1,206 @@
+# Amlandeep Bhadra
+
+> Full text of https://koko1123.github.io/, generated from the site's data at build time. Short version: https://koko1123.github.io/llms.txt
+
+## Profile
+
+### Amlandeep Bhadra
+_Head of Engineering · Strobe Labs_
+- Location: New York, New York
+- Currently: Head of Engineering, Strobe Labs
+- Education: B.A. Computer Science & Mathematics, NYU
+- Writes: Zig, Rust, Go, Elixir
+
+Engineering lead based in New York. I run engineering at Strobe Labs, where a team of three took PerpCity, a perpetual futures exchange for real-world data, from first commit to Arbitrum mainnet.
+
+I also write open-source systems code: eth.zig, a Zig Ethereum library faster than alloy.rs on 18 of 26 benchmarks, and a compiler_rt division speedup merged into the Zig compiler.
+
+Before that: the execution engine for a layer 1 for AI agents at Talus Labs, the Flow protocol at Dapper Labs, and backend work at Audible, Twitter, and Goldman Sachs.
+
+Studied Computer Science and Mathematics at NYU, where a minor in Studio Art left a lasting soft spot for interfaces that feel crafted. This site is one of them.
+- [LinkedIn](https://www.linkedin.com/in/amlandeep-bhadra/)
+- [GitHub](https://github.com/koko1123)
+- [X](https://x.com/baconeggnlean)
+
+## Experience
+
+### Strobe Labs
+_Head of Engineering · Dec 2024 – Present_
+- Role: Head of Engineering
+- Dates: Dec 2024 – Present
+- Location: New York, NY
+
+Took a perpetual futures exchange for real-world data from first commit to Arbitrum mainnet with a team of three, ahead of venture-backed competitors: 60 markets, 19,000 trades, and $760K in volume in under six months.
+
+Built the inference pipeline behind the model-based indices: models scoring live data on SageMaker and RunPod GPUs via ONNX, publishing prices on-chain continuously, with zkML proofs of inference (EZKL) on testnet.
+
+Designed and run the production platform: 13 services on AWS ECS covering an oracle network for 51 data feeds, a real-time indexer, streaming APIs, and liquidators, with KMS-held signing keys and paged on-call; 99.97% trading app availability over 90 days.
+
+Shipped a public API platform for programmatic and AI-agent trading: an API in Elixir, a trade executor using policy-scoped session keys, and a CLI on npm.
+
+Hired and lead the engineering team while staying hands-on: wrote the oracle service in Rust (1.3M+ on-chain transactions sent through a load-balanced pool of KMS-held wallets, in 26 MB of memory) and the liquidation bot in Zig; created eth.zig, an open-source Zig Ethereum library.
+- [eth.zig on GitHub](https://github.com/StrobeLabs/eth.zig)
+
+### Talus Labs
+_Senior Engineer · Feb 2024 – Dec 2024_
+- Role: Senior Engineer
+- Dates: Feb 2024 – Dec 2024
+- Location: New York, NY · Remote
+
+Worked on the execution engine and validator performance for a Cosmos-based layer 1 for smart agents.
+
+Set up an onboarding and screening pipeline for AI and layer-1 talent.
+
+### Dapper Labs
+_Protocol Engineer · Jan 2022 – Dec 2023_
+- Role: Protocol Engineer
+- Dates: Jan 2022 – Dec 2023
+- Location: New York, NY · Remote
+
+Scaled and extended the egress layer of Flow, the layer 1 behind NBA Top Shot, at its peak the largest consumer app in crypto. All of this work is open source.
+
+Launched and optimized Flow’s Archive Node, enabling smart contract execution and transaction simulation outside the staked network, plus historical script execution beyond the live network’s 300-block window.
+
+Enabled script execution and execution-data indexing on staked Access Nodes, reducing staked egress network traffic by 80%.
+
+Led the Unstaked Observer Node launch, mentoring an intern and a junior engineer and coordinating a contractor team.
+
+Led the final engineering effort to list the FLOW token on Coinbase.
+
+Optimized the validator node software for hardware and network latency.
+- [flow-go on GitHub](https://github.com/onflow/flow-go)
+
+### Audible
+_Software Development Engineer II · Feb 2020 – Jan 2022_
+- Role: Software Development Engineer II
+- Dates: Feb 2020 – Jan 2022
+- Location: New York, NY · Remote
+
+Scaled and extended the backend core library service, used by all of Audible’s 30 million monthly active users, for podcasts and Prime Day traffic spikes.
+
+Shipped podcast episode fulfillment, “All You Can Listen” subscription features, and author lenses.
+
+### Harness Wealth
+_Software Engineer · Jul 2019 – Dec 2019_
+- Role: Software Engineer
+- Dates: Jul 2019 – Dec 2019
+- Location: New York, NY
+
+Developed improvements to the client–adviser matching algorithm and methods for evaluating match quality.
+
+### Twitter
+_Software Engineer II · Jun 2018 – May 2019_
+- Role: Software Engineer II
+- Dates: Jun 2018 – May 2019
+- Location: San Francisco, CA
+
+Built an application aggregating Twitter revenue metrics and ad sales data into one view of revenue forecasting and tracking, used from individual sales managers up to Jack Dorsey.
+
+Taught Twitter’s Intro to Scala class, a 2.5-hour session averaging 30 students.
+
+### Goldman Sachs
+_Technology Analyst, Quantitative Strategy · Jul 2016 – May 2018_
+- Role: Technology Analyst, Quantitative Strategy
+- Dates: Jul 2016 – May 2018
+- Location: New York, NY
+
+Built automated regulatory tests and what-if simulations for portfolios spanning 900+ securities and over $25B in net assets, for prospective private wealth clients adopting quantitative strategies.
+
+### Trophy Collection
+_2 trophies_
+- Parallel, Concurrent, and Distributed Programming in Java Specialization: Coursera · Issued Dec 2020 · Credential 993B2ZFSCAFP
+- CPR / AED / First Aid: American Red Cross · Issued Jan 2021 · Credential 00HA1QA
+
+## Open Source
+
+### eth.zig
+_Zig Ethereum client library · creator_
+- Language: Zig, zero dependencies
+- Benchmarks: Faster than alloy.rs on 18 of 26
+- Listed: ethereum.org developer docs
+
+A pure-Zig Ethereum library: ABI, RLP, secp256k1, Keccak-256, HD wallets, EIP-712, JSON-RPC, WebSocket, ENS, and ERC-20/721, with function selectors and event topics computed at compile time.
+
+Benchmarked against alloy.rs, Rust’s leading Ethereum library, with the harness and the five losses published: RLP EIP-1559 encode 24x, ABI dynamic decode 8.4x, secp256k1 sign and recover 4.2x.
+- [eth.zig on GitHub](https://github.com/StrobeLabs/eth.zig)
+- [ethzig.org](https://ethzig.org)
+- [ethereum.org listing (PR #19213)](https://github.com/ethereum/ethereum-org-website/pull/19213)
+
+### Zig compiler
+_compiler_rt division speedup · merged_
+- Project: ziglang/zig
+- Merged: Mar 2026
+
+Replaced the shift-subtract loop in compiler_rt’s udivmod large-divisor path with a constant-time trial quotient (Knuth Algorithm D): 87ns to 7.5ns, 11.5x faster on worst-case divisors on Apple M1.
+- [ziglang/zig PR #31381](https://codeberg.org/ziglang/zig/pulls/31381)
+
+### Foundry
+_Anvil EIP-2935 support · merged_
+- Project: foundry-rs/foundry
+- Merged: Mar 2026
+
+Added EIP-2935 blockhash history storage to Anvil, Foundry’s local Ethereum node.
+- [foundry-rs/foundry PR #13588](https://github.com/foundry-rs/foundry/pull/13588)
+
+### Flow protocol
+_flow-go, flow-archive, rosetta · Dapper Labs_
+
+129 pull requests to the onflow organization in Go: the Archive Node, Access Node script execution, the GetRegisters gRPC API, and Pebble-based storage.
+- [onflow/flow-go](https://github.com/onflow/flow-go)
+
+### lean-explain
+_Lean 4 proofs, explained in English_
+
+Step-by-step natural-language explanations of Lean 4 proofs, grounded in the goal states the compiler reports at each tactic.
+- [lean-explain on GitHub](https://github.com/koko1123/lean-explain)
+
+## Skills
+
+### Skills
+_Leadership · Engineering · Infrastructure & ML · Languages_
+- Leadership: Team building and management, engineering project management, bootstrapping, systems at scale
+- Engineering: Consensus algorithms, Byzantine fault tolerance, distributed databases, cryptographic systems, measured performance work
+- Infrastructure & ML: AWS ECS, KMS, SageMaker, RunPod, ONNX, EZKL
+- Languages: Rust, Zig, Go, Elixir, Python, Java
+
+## Education
+
+### New York University
+_2012 – 2016_
+- School: New York University
+- Degree: B.A. Computer Science & Mathematics
+- Years: 2012 – 2016
+- Minor: Studio Art
+- Activities: Tau Kappa Epsilon
+
+### Studio Art
+_Minor · NYU_
+
+A minor in Studio Art at NYU. It is the reason for an eye for composition, light and motion, and partly the reason this site exists.
+
+### Tau Kappa Epsilon
+_Chapter Chaplain · 2014 – 2015_
+- Role: Chapter Chaplain
+- Dates: May 2014 – May 2015
+
+Responsible for members' personal growth and development and the organization's morale.
+
+## Links
+
+### LinkedIn
+_in/amlandeep-bhadra_
+
+Connect on LinkedIn.
+- [linkedin.com/in/amlandeep-bhadra](https://www.linkedin.com/in/amlandeep-bhadra/)
+
+### X
+_@baconeggnlean_
+
+Crypto, AI you can run yourself, and what I am building.
+- [x.com/baconeggnlean](https://x.com/baconeggnlean)
+
+### GitHub
+_koko1123_
+
+Code, experiments and side projects.
+- [github.com/koko1123](https://github.com/koko1123)

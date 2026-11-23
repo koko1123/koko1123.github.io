@@ -15,6 +15,7 @@
 - [lean-explain](https://github.com/koko1123/lean-explain): step-by-step English explanations of Lean 4 proofs.
 
 ## Links
+- Full text of the site: https://koko1123.github.io/llms-full.txt
 - GitHub: https://github.com/koko1123
 - X: https://x.com/baconeggnlean
 - LinkedIn: https://www.linkedin.com/in/amlandeep-bhadra/
